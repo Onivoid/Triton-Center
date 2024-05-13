@@ -10,7 +10,7 @@ from .graphql.resolvers.user import (
     Mutation as UserMutation,
 )
 
-load_dotenv("../config/.env")
+load_dotenv()
 
 app = FastAPI()
 
